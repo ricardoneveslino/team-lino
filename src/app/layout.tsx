@@ -3,7 +3,6 @@ import "./globals.css";
 import {ThemeProvider} from "@/components/theme-provider";
 import {montserrat} from "@/lib/fonts";
 import {Header} from "@/components/header";
-import {ThemeToggle} from "@/components/theme-toggle";
 import React from "react";
 import {Footer} from "@/components/footer";
 
