@@ -47,6 +47,7 @@ export function Hero() {
 
                 <div className="relative hidden w-6/12 p-8 sm:block">
                     <Image
+                        priority
                         src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/team_lino.png"
                         alt="Hero"
                         width={800}
