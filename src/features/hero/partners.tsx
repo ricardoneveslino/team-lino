@@ -7,9 +7,6 @@ import {ExternalLink} from "lucide-react";
 export const Partners = () => {
     return (
         <div className={"mt-auto"}>
-            <h2 className={"text-xs text-center mb-2"}>
-                Os Nossos Parceiros
-            </h2>
             <div className={"flex"}>
 
                 {partners.map(partner =>
@@ -33,24 +30,24 @@ const PartnerCard = ({partner}: PartnerCardProps) => {
     return (
         <a href={partner.website}
            target="_blank" rel="noopener noreferrer"
-           className={`group flex flex-col rounded-lg w-52 relative hover:scale-95 transition-transform`}
+           className={`group flex flex-col rounded-lg w-56 relative hover:scale-95 transition-transform border`}
            style={{ boxShadow: `0px 4px 15px ${partnerColor}` }}
         >
 
-            <div className={"p-2 w-full flex items-center justify-center"}>
+            <div className={"py-6 px-2 w-full flex items-center justify-center"}>
                 <Image
                     src={partner.logoWhite}
                     alt={"Logo Zumub"}
                     width={256}
                     height={256}
-                    className={"hidden dark:block object-cover w-full h-16"}
+                    className={"hidden dark:block object-cover w-full h-12"}
                 />
                 <Image
                     src={partner.logoBlack}
                     alt={"Logo Zumub"}
                     width={256}
                     height={256}
-                    className={"block dark:hidden object-cover w-full h-16"}
+                    className={"block dark:hidden object-cover w-full h-12"}
                 />
             </div>
             <div className={"h-12 flex items-center justify-between bg-foreground/10 p-2 text-sm rounded-b-lg"}>
