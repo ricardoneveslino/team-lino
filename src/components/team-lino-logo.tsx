@@ -21,8 +21,8 @@ export function TeamLinoLogo() {
                 className="hidden h-9 w-9 object-contain dark:block"
             />
             <div className={"flex flex-col"}>
-                <span className={"tracking-wide"}> TEAM <span className={"text-primary"}>LINO</span> </span>
-                <span className="text-xs"> ONLINE COACHING </span>
+                <span className={"tracking-wide text-nowrap"}> TEAM <span className={"text-primary"}>LINO</span> </span>
+                <span className="text-xs text-nowrap"> ONLINE COACHING </span>
             </div>
         </Link>
     )
