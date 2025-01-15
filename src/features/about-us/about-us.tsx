@@ -6,7 +6,7 @@ export const AboutUs = () => {
         <div className={"w-full flex flex-col sm:flex-row gap-4 justify-start items-start"}>
             <div className={"flex-1 flex gap-4"}>
                 <div className={"flex-1 flex"}>
-                    <p>
+                    <p className={"text-balance text-center sm:text-left"}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est augue, lacinia sed vehicula
                         quis, ultricies ut velit. Duis interdum lectus quam, quis luctus urna tempus et. In tortor
                         ipsum, tincidunt in pellentesque non, vestibulum ac nisl. Morbi feugiat vitae metus id
