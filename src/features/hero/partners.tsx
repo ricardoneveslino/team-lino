@@ -1,7 +1,6 @@
 import React from 'react'
 import {partners} from "@/data/partners";
 import Image from "next/image";
-import {hexToRgba} from "@/lib/utils";
 import {ExternalLink} from "lucide-react";
 
 export const Partners = () => {
