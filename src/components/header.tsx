@@ -62,10 +62,10 @@ export const MobileNav = () => {
                     <SheetDescription className={"sr-only"}> Menu de Navegação </SheetDescription>
                 </SheetHeader>
                 <nav className="flex flex-col gap-4">
-                    <ul className="flex flex-col gap-4 text-sm text-foreground/80">
+                    <ul className="flex flex-col text-sm text-foreground/80">
                         {menuItems.map((item) => (
-                            <li key={item.title}>
-                                <Link href={item.href} className="transition-colors hover:text-primary">
+                            <li key={item.title} className={"flex"}>
+                                <Link href={item.href} className="transition-colors hover:text-primary flex-1 p-2">
                                     {item.title}
                                 </Link>
                             </li>
