@@ -17,18 +17,24 @@ export const AboutUs = () => {
             <div className={"flex-1 flex gap-2"}>
                 <div className={"flex-1"}>
                     <Image
+                        loading={"lazy"}
                         src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/ricardo_e_andre.jpeg"
                         alt="Ricardo Lino e André Lino"
                         width={600}
                         height={600}
+                        quality={50}
+                        sizes={"(max-width: 640px) 50vw, 25vw"}
                     />
                 </div>
                 <div className={"flex-1"}>
                     <Image
+                        loading={"lazy"}
                         src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/team_lino.png"
                         alt="Ricardo Lino e André Lino"
                         width={600}
                         height={600}
+                        quality={50}
+                        sizes="(max-width: 640px) 50vw, 25vw"
                     />
                 </div>
             </div>

@@ -5,14 +5,15 @@ import {Separator} from "@/components/ui/separator";
 import {Button} from "@/components/ui/button";
 import {Dumbbell, NotebookPen} from "lucide-react";
 import {Partners} from "@/features/hero/partners";
+import {PresentationVideo} from "@/components/presentation-video";
 
 export function Hero() {
     return (
-        <div className={"h-full w-full flex flex-col items-center justify-center"}>
+        <div className={"h-full w-full flex flex-col items-center justify-center gap-24"}>
 
             <div className={"flex flex-col gap-4 sm:flex-row items-center justify-center w-full"}>
 
-                <div className={"w-full sm:w-6/12 flex flex-col gap-2 items-center sm:items-start "}>
+                <div className={"w-full sm:w-6/12 flex flex-col gap-4 items-center sm:items-start"}>
 
                     <TeamLinoLogo/>
                     <h1 className="text-center text-3xl font-bold md:text-4xl lg:text-6xl xl:text-7xl text-balance sm:text-left">
@@ -22,6 +23,8 @@ export function Hero() {
                             Resultados.
                         </span>
                     </h1>
+
+                    <PresentationVideo className={"sm:hidden"}/>
 
                     <div className={"flex flex-col gap-2 text-center sm:text-left"}>
                         <Separator className={"w-8 bg-primary mx-auto sm:mx-0"}/>
@@ -35,7 +38,8 @@ export function Hero() {
                                 Escolhe o Teu Plano
                             </a>
                         </Button>
-                        <Button variant={"default"} className={"font-medium hover:-translate-y-1 transition-transform"} asChild>
+                        <Button variant={"default"} className={"font-medium hover:-translate-y-1 transition-transform"}
+                                asChild>
                             <a href={"https://signup-teamlino.mkgest.com"} target={"_blank"} rel={"noreferrer nofolow"}>
                                 <Dumbbell className={"inline"} size={16}/>
                                 Inicia a Tua Transformação
@@ -45,33 +49,11 @@ export function Hero() {
 
                 </div>
 
-                <div className="relative hidden w-full sm:w-6/12 p-8 sm:block">
-                    <Image
-                        priority
-                        src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/team_lino.png"
-                        alt="Hero"
-                        width={800}
-                        height={800}
-                        sizes="(max-width: 768px) 40vw, (max-width: 1200px) 50vw, 800px"
-                        placeholder="blur"
-                        blurDataURL="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/team_lino.png"
-                        className={"relative z-10 max-sm:w-72"}
-                    />
-
-                </div>
-
+                <PresentationVideo className={"hidden sm:block"}/>
 
             </div>
 
             <Partners/>
-
-            {/*<Button className={"absolute bottom-4"} variant={"ghost"} asChild>*/}
-            {/*    <a href={"/#transformações"}>*/}
-            {/*        <ChevronDown className={"inline animate-bounce"} size={16}/>*/}
-            {/*        Antes e Depois: Confere os Resultados*/}
-            {/*    </a>*/}
-            {/*</Button>*/}
-
         </div>
     )
 }

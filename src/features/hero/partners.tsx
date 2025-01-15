@@ -6,7 +6,8 @@ import {ExternalLink} from "lucide-react";
 
 export const Partners = () => {
     return (
-        <div className={"mt-auto"}>
+        <>
+            <h2 className={"text-sm text-center sm:text-left w-full sr-only"}> Os nossos parceiros </h2>
             <div className={"flex"}>
 
                 {partners.map(partner =>
@@ -14,7 +15,7 @@ export const Partners = () => {
                 )}
 
             </div>
-        </div>
+        </>
     )
 }
 
@@ -23,42 +24,49 @@ interface PartnerCardProps {
 }
 
 
-const PartnerCard = ({partner}: PartnerCardProps) => {
-
-    const partnerColor = hexToRgba(partner.color, 0.35)
+const PartnerCard = ({ partner }: PartnerCardProps) => {
+    const partnerColorRaw = partner.color
 
     return (
-        <a href={partner.website}
-           target="_blank" rel="noopener noreferrer"
-           className={`group flex flex-col rounded-lg w-56 relative hover:scale-95 transition-transform border`}
-           style={{ boxShadow: `0px 4px 15px ${partnerColor}` }}
+        <a
+            href={partner.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`group flex items-center rounded-lg relative hover:scale-95 transition-transform w-full max-w-lg p-1`}
         >
-
-            <div className={"py-6 px-2 w-full flex items-center justify-center"}>
+            <span className={`absolute inset-0 bg-gradient-to-tr from-[${partnerColorRaw}] to-background z-[-1] opacity-25 blur`}></span>
+            {/* Logo Section */}
+            <div className="flex items-center justify-center w-24 h-12">
                 <Image
                     src={partner.logoWhite}
-                    alt={"Logo Zumub"}
-                    width={256}
-                    height={256}
-                    className={"hidden dark:block object-cover w-full h-12"}
+                    alt={`Logo ${partner.name}`}
+                    width={64}
+                    height={64}
+                    className="hidden dark:block object-cover"
                 />
                 <Image
                     src={partner.logoBlack}
-                    alt={"Logo Zumub"}
-                    width={256}
-                    height={256}
-                    className={"block dark:hidden object-cover w-full h-12"}
+                    alt={`Logo ${partner.name}`}
+                    width={64}
+                    height={64}
+                    className="block dark:hidden object-cover"
                 />
             </div>
-            <div className={"h-12 flex items-center justify-between bg-foreground/10 p-2 text-sm rounded-b-lg"}>
-                <span className={"text-foreground/80"}> Usa o código: </span>
 
-                <span className={"bg-background font-semibold p-2 rounded-lg"}> {partner.discountCode} </span>
+            {/* Content Section */}
+            <div className="flex-1 flex flex-col justify-center items-center px-4">
+                <div className="text-xs text-foreground/80 font-medium">
+                    Usa o código:
+                </div>
+                <div className="font-semibold rounded-md text-foreground">
+                    {partner.discountCode}
+                </div>
             </div>
-            <div className={"absolute inset-0 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity"}>
-                <ExternalLink size={32}/>
+
+            {/* Hover Icon */}
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity">
+                <ExternalLink size={24} />
             </div>
         </a>
-    )
-
-}
+    );
+};

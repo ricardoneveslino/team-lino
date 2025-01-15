@@ -36,11 +36,13 @@ const TransformationCard = ({transformation}: TransformationCardProps) => {
     return (
         <CarouselItem className={"flex"}>
             <Image
+                loading={"lazy"}
                 src={transformation.image}
                 alt={""}
                 width={375}
                 height={325}
                 className={"flex-1 rounded-lg"}
+                sizes={"(max-width: 640px) 80vw, 40vw"}
             />
         </CarouselItem>
     )
