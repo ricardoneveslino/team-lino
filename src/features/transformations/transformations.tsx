@@ -12,7 +12,7 @@ import {
 
 export const Transformations = () => {
     return (
-        <Carousel className={"w-10/12 md:w-8/12 lg:w-6/12 mx-auto shadow-xl shadow-primary/20 "} >
+        <Carousel className={"w-10/12 md:w-8/12 lg:w-6/12 mx-auto"} >
             <CarouselContent className={""}>
 
                 {transformations.map(transformation =>
