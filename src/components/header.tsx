@@ -65,7 +65,7 @@ export const MobileNav = () => {
                     <ul className="flex flex-col text-sm text-foreground/80">
                         {menuItems.map((item) => (
                             <li key={item.title} className={"flex"}>
-                                <Link href={item.href} className="transition-colors hover:text-primary flex-1 p-2">
+                                <Link href={item.href} className="transition-colors hover:text-primary flex-1 py-2">
                                     {item.title}
                                 </Link>
                             </li>
