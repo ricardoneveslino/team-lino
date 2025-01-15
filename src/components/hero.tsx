@@ -12,7 +12,7 @@ export function Hero() {
 
             <div className={"flex flex-col gap-4 sm:flex-row items-center justify-center w-full"}>
 
-                <div className={"w-6/12 flex flex-col gap-2 items-center sm:items-start "}>
+                <div className={"w-full sm:w-6/12 flex flex-col gap-2 items-center sm:items-start "}>
 
                     <TeamLinoLogo/>
                     <h1 className="text-center text-3xl font-bold md:text-4xl lg:text-6xl xl:text-7xl text-balance sm:text-left">
@@ -45,7 +45,7 @@ export function Hero() {
 
                 </div>
 
-                <div className="relative hidden w-6/12 p-8 sm:block">
+                <div className="relative hidden w-full sm:w-6/12 p-8 sm:block">
                     <Image
                         priority
                         src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/team_lino.png"

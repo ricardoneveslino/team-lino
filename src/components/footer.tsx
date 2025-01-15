@@ -15,13 +15,22 @@ export const Footer = () => {
 
             <div className={"flex flex-col sm:flex-row justify-center items-center gap-12 h-full py-8"}>
 
-                <div className={"flex-1 gap-2 h-full "}>
+                <div className={"flex-1 gap-2 h-full"}>
                     <h2 className={"text-xl font-bold mb-2"}>Tens Dúvidas?</h2>
-                    <a href="https://wa.link/7kuau9" target="_blank" rel="nopener nofollow" className={"flex items-center gap-2"}>
+                    <a
+                        href="https://wa.link/7kuau9"
+                        target="_blank"
+                        rel="nopener nofollow"
+                        className={
+                            "flex items-center gap-4 p-2 bg-[#25D366]/10 text-[#25D366] rounded-md hover:bg-[#25D366]/20 transition-colors"
+                        }
+                    >
                         <span>Fala Connosco</span>
-                        <Whatsapp className={" inline"}/>
+                        <Whatsapp className={"w-5 h-5"}/>
                     </a>
                 </div>
+
+
                 <div className={"flex-1 flex justify-center items-start h-full order-3 sm:order-none"}>
                     <TeamLinoLogo/>
                 </div>
@@ -32,7 +41,7 @@ export const Footer = () => {
                            href={"https://www.youtube.com/@Andre_Lino"}
                            rel="noopener noreferrer"
                         >
-                            <Youtube className="inline" />
+                            <Youtube className="inline"/>
                             <span className="text-xs group-hover:underline">YouTube</span>
                         </a>
                         <a className="flex items-center gap-2 rounded-lg p-1 group" target="_blank"
@@ -56,7 +65,9 @@ export const Footer = () => {
             <div className={"w-full flex flex-col sm:flex-row items-center justify-between gap-2 text-xs"}>
                 <span>© {currentYear} Team Lino. All rights reserved.</span>
                 <span>Developed by: {" "}
-                    <Image className={"-translate-y-[1px] hidden dark:inline"} src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/blueprint_symbol_white.png" alt="Blueprint Web Logo" width={12} height={12}/>
+                    <Image className={"-translate-y-[1px] hidden dark:inline"}
+                           src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/blueprint_symbol_white.png"
+                           alt="Blueprint Web Logo" width={12} height={12}/>
                     <Image className={"-translate-y-[1px] inline dark:hidden"} src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/blueprint_symbol_black.png" alt="Blueprint Web Logo" width={12} height={12}/>
                     {" "} Blueprint Web Team
                 </span>
