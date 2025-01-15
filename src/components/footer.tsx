@@ -16,7 +16,7 @@ export const Footer = () => {
             <div className={"flex flex-col sm:flex-row justify-center items-center gap-12 h-full py-8"}>
 
                 <div className={"flex-1 gap-2 h-full"}>
-                    <h2 className={"text-xl font-bold mb-2"}>Tens Dúvidas?</h2>
+                    <h2 className={"text-xl text-center sm:text-left font-bold mb-2"}>Tens Dúvidas?</h2>
                     <a
                         href="https://wa.link/7kuau9"
                         target="_blank"
@@ -35,7 +35,7 @@ export const Footer = () => {
                     <TeamLinoLogo/>
                 </div>
                 <div className={"flex-1 h-full"}>
-                    <h2 className={"text-xl font-bold mb-2"}>Redes Sociais</h2>
+                    <h2 className={"text-xl font-bold mb-2 text-center sm:text-left"}>Redes Sociais</h2>
                     <div className={"flex flex-col items-start gap-2"}>
                         <a className="flex items-center gap-2 rounded-lg p-1 group" target="_blank"
                            href={"https://www.youtube.com/@Andre_Lino"}
