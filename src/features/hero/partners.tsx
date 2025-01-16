@@ -35,7 +35,7 @@ const PartnerCard = ({ partner }: PartnerCardProps) => {
             <span className={`absolute inset-0 z-[-1] opacity-15 blur-md`} style={{ background: partner.color }}>
 
             </span>
-            {/* Logo Section */}
+
             <div className="flex items-center justify-center w-24 h-12">
                 <Image
                     src={partner.logoWhite}
@@ -53,7 +53,6 @@ const PartnerCard = ({ partner }: PartnerCardProps) => {
                 />
             </div>
 
-            {/* Content Section */}
             <div className="flex-1 flex flex-col justify-center items-center px-4">
                 <div className="text-xs text-foreground/80 font-medium">
                     Usa o código:
@@ -63,7 +62,6 @@ const PartnerCard = ({ partner }: PartnerCardProps) => {
                 </div>
             </div>
 
-            {/* Hover Icon */}
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity">
                 <ExternalLink size={24} />
             </div>

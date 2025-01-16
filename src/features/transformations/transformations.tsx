@@ -34,14 +34,14 @@ interface TransformationCardProps {
 const TransformationCard = ({transformation}: TransformationCardProps) => {
 
     return (
-        <CarouselItem className={"flex"}>
+        <CarouselItem className={"flex aspect-video"}>
             <Image
                 loading={"lazy"}
                 src={transformation.image}
                 alt={""}
                 width={375}
                 height={325}
-                className={"flex-1 rounded-lg"}
+                className={"flex-1 rounded-lg object-contain"}
                 sizes={"(max-width: 640px) 80vw, 40vw"}
             />
         </CarouselItem>
