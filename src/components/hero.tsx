@@ -1,4 +1,3 @@
-import React from 'react'
 import {TeamLinoLogo} from "@/components/team-lino-logo";
 import {Separator} from "@/components/ui/separator";
 import {Button} from "@/components/ui/button";

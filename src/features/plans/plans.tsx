@@ -1,9 +1,8 @@
-import React from 'react'
 import {plans} from "@/data/plans";
 import {Button} from "@/components/ui/button";
 import {Check} from "lucide-react";
-import {HoverCard, HoverCardContent, HoverCardTrigger} from "@/components/ui/hover-card";
 import {TeamLinoLogo} from "@/components/team-lino-logo";
+import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
 
 export const Plans = () => {
     return (
@@ -99,15 +98,17 @@ interface FeatureProps {
 const Feature = ({ feature }: FeatureProps) => {
 
     return (
-        <HoverCard>
-            <HoverCardTrigger className={"flex items-center gap-2 text-sm cursor-pointer hover:underline"}>
-                <Check size={16} className={"flex-shrink-0"}/>
-                <span>{feature.title}</span>
-            </HoverCardTrigger>
-            <HoverCardContent className={"text-sm"}>
-                {feature.description}
-            </HoverCardContent>
-        </HoverCard>
+        <TooltipProvider>
+            <Tooltip>
+                <TooltipTrigger className={"flex items-center gap-2 text-sm cursor-pointer hover:underline"}>
+                    <Check size={16} className={"flex-shrink-0"}/>
+                    <span>{feature.title}</span>
+                </TooltipTrigger>
+                <TooltipContent className={"text-sm bg-background border w-96"}>
+                    {feature.description}
+                </TooltipContent>
+            </Tooltip>
+        </TooltipProvider>
     )
 }
 
