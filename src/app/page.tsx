@@ -1,8 +1,11 @@
+import dynamic from 'next/dynamic';
+
 import {Hero} from "@/features/hero/hero";
-import {Plans} from "@/features/plans/plans";
-import {Transformations} from "@/features/transformations/transformations";
-import {Faq} from "@/features/faq/faq";
-import {AboutUs} from "@/features/about-us/about-us";
+
+const Plans = dynamic(() => import('@/features/plans/plans'));
+const Transformations = dynamic(() => import('@/features/transformations/transformations'));
+const Faq = dynamic(() => import('@/features/faq/faq'));
+const AboutUs = dynamic(() => import('@/features/about-us/about-us'));
 
 export default function Home() {
   return (

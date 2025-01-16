@@ -4,7 +4,7 @@ import {Check} from "lucide-react";
 import {TeamLinoLogo} from "@/components/team-lino-logo";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
 
-export const Plans = () => {
+const Plans = () => {
     return (
         <div className={"w-full flex flex-col items-center gap-8"}>
 
@@ -90,6 +90,8 @@ const Plan = ({plan}: PlanProps) => {
         </div>
     )
 }
+
+export default Plans;
 
 interface FeatureProps {
     feature: typeof plans[0]['features'][0];

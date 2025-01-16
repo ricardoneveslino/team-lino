@@ -7,7 +7,7 @@ import {PresentationVideo} from "@/components/presentation-video";
 
 export function Hero() {
     return (
-        <div className={"h-full w-full flex flex-col items-center justify-center gap-24"}>
+        <div className={"w-full flex flex-col items-center justify-center gap-16 sm:gap-32"}>
 
             <div className={"flex flex-col gap-4 sm:flex-row items-center justify-center w-full"}>
 

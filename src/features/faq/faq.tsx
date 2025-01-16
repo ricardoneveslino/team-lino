@@ -7,9 +7,7 @@ import {
 } from "@/components/ui/accordion"
 import {faq} from "@/data/faq";
 
-
-
-export const Faq = () => {
+const Faq = () => {
     return (
         <Accordion type="multiple">
 
@@ -25,3 +23,5 @@ export const Faq = () => {
         </Accordion>
     )
 }
+
+export default Faq;

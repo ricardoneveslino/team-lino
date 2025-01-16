@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
-export const AboutUs = () => {
+const AboutUs = () => {
     return (
         <div className={"w-full flex flex-col sm:flex-row gap-4 justify-start items-start"}>
             <div className={"flex-1 flex gap-4"}>
@@ -41,3 +41,5 @@ export const AboutUs = () => {
         </div>
     )
 }
+
+export default AboutUs;

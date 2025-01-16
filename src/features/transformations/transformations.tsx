@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/carousel"
 
 
-export const Transformations = () => {
+const Transformations = () => {
     return (
         <Carousel className={"w-10/12 md:w-8/12 lg:w-6/12 mx-auto"} >
             <CarouselContent className={""}>
@@ -26,6 +26,8 @@ export const Transformations = () => {
 
     )
 }
+
+export default Transformations;
 
 interface TransformationCardProps {
     transformation: typeof transformations[0];
