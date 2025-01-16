@@ -7,7 +7,7 @@ import {PresentationVideo} from "@/components/presentation-video";
 
 export function Hero() {
     return (
-        <div className={"w-full flex flex-col items-center justify-center gap-16 sm:gap-32"}>
+        <div className={"h-full w-full flex flex-col items-center justify-center gap-16 sm:gap-32"}>
 
             <div className={"flex flex-col gap-4 sm:flex-row items-center justify-center w-full"}>
 
@@ -52,9 +52,7 @@ export function Hero() {
                 <div className={"hidden sm:block sm:w-6/12 p-1"}>
                     <PresentationVideo/>
                 </div>
-
             </div>
-
             <Partners/>
         </div>
     )

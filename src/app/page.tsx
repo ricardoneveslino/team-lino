@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic';
-
 import {Hero} from "@/features/hero/hero";
 
 const Plans = dynamic(() => import('@/features/plans/plans'));
@@ -10,7 +9,7 @@ const AboutUs = dynamic(() => import('@/features/about-us/about-us'));
 export default function Home() {
   return (
       <>
-          <section className={"page-section h-[calc(100vh-64px)]"}>
+          <section className={"page-section min-h-[calc(100vh-64px)]"}>
               <Hero/>
           </section>
 
