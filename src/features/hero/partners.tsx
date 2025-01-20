@@ -32,7 +32,7 @@ const PartnerCard = ({ partner }: PartnerCardProps) => {
             rel="noopener noreferrer"
             className={`group flex items-center rounded-lg relative hover:scale-95 transition-transform w-full max-w-lg p-1`}
         >
-            <span className={`absolute inset-0 z-[-1] opacity-15 blur-md`} style={{ background: partner.color }}>
+            <span className={`absolute inset-0 z-[-1] opacity-25 blur rounded-lg`} style={{ background: partner.color }}>
 
             </span>
 
