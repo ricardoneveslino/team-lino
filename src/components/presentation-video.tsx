@@ -6,8 +6,9 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 const PresentationVideo = ( { className}: { className?: string} ) => {
 
     return (
-        <div className={`aspect-video rounded-xl overflow-hidden shadow-lg w-full p-1 ${className}`}>
+        <div className={`rounded-lg overflow-hidden w-full ${className}`}>
             <LiteYouTubeEmbed
+                containerElement={"div"}
                 aspectHeight={9}
                 aspectWidth={16}
                 id="NgymAPexlt0"
