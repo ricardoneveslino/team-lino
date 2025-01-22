@@ -2,7 +2,7 @@
 export const faq = [
     {
         question: 'Como funcionam os planos de treino personalizados?',
-        answer: 'Os nossos planos são adaptados às tuas necessidades, objetivos e nível de experiência. Depois de forneceres informações sobre o teu estado físico e metas, criamos um plano detalhado para te ajudar a atingir os melhores resultados.'
+        answer: 'Através da nossa App exclusiva, terás acesso aos teus planos de treino que são adaptados às tuas necessidades, objetivos e nível de experiência. Depois de forneceres informações sobre o teu estado físico e metas, criamos o plano de ação detalhado para te ajudar a atingir os melhores resultados.'
     },
     {
         question: 'Preciso de equipamento específico para seguir os planos?',
@@ -14,6 +14,6 @@ export const faq = [
     },
     {
         question: 'Os planos incluem suporte ou acompanhamento?',
-        answer: 'Sim, oferecemos suporte contínuo para esclarecer dúvidas e ajustar o plano sempre que necessário, garantindo que estás no caminho certo para alcançar os teus objetivos.'
+        answer: 'Sim, contamos com uma equipa de Personal Trainers e Nutricionistas que diariamente certificam o suporte contínuo para esclarecer dúvidas e ajustar o plano sempre que necessário, garantindo que estás no caminho certo para alcançar os teus objetivos.'
     }
 ]

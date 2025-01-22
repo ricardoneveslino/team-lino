@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import {transformations} from "@/data/transformations";
 import {
@@ -8,7 +7,6 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
-
 
 const Transformations = () => {
     return (

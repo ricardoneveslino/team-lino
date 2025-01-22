@@ -8,6 +8,7 @@ import {
 import {faq} from "@/data/faq";
 
 const Faq = () => {
+
     return (
         <Accordion type="multiple">
 

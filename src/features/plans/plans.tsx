@@ -1,6 +1,6 @@
 import {plans} from "@/data/plans";
 import {Button} from "@/components/ui/button";
-import {Check} from "lucide-react";
+import {Check, CircleHelp} from "lucide-react";
 import {TeamLinoLogo} from "@/components/team-lino-logo";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
 
@@ -102,9 +102,10 @@ const Feature = ({ feature }: FeatureProps) => {
     return (
         <TooltipProvider>
             <Tooltip>
-                <TooltipTrigger className={"flex items-center gap-2 text-sm cursor-pointer hover:underline"}>
+                <TooltipTrigger className={"flex items-center gap-2 text-sm cursor-pointer group"}>
                     <Check size={16} className={"flex-shrink-0"}/>
-                    <span className={"text-left"}>{feature.title}</span>
+                    <span className={"text-left group-hover:underline"}>{feature.title}</span>
+                    <span className={"text-[10px] text-foreground/75 -ms-1 -mt-1"}> ? </span>
                 </TooltipTrigger>
                 <TooltipContent className={"text-sm bg-background border w-96"}>
                     {feature.description}

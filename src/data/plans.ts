@@ -27,8 +27,16 @@ export const plans = [
                 "description": "Grupo privado no Telegram para esclarecimento de dúvidas e apoio motivacional."
             },
             {
-                "title": "Pilates e Mobilidade",
-                "description": "Oferta das nossas aulas online de mobilidade e pilates em direto com a nossa equipa de personal trainers."
+                "title": "Acesso à Nossa App Exclusiva",
+                "description": "TODO"
+            },
+            {
+                "title": "Anamnése Inicial",
+                "description": "TODO"
+            },
+            {
+                "title": "Grupo Privado no Telegram para Apoio Diário",
+                "description": "TODO"
             }
         ]
     },
@@ -37,6 +45,7 @@ export const plans = [
         price: 200,
         periodicity: "3 meses",
         saving: 11,
+        specialOffer: "Treino Presencial com os Linos num dos seus ginásios privados + Avaliação de Shape ( no final dos 3 meses).",
         features: [
             {
                 "title": "Plano de Treino",
@@ -59,8 +68,16 @@ export const plans = [
                 "description": "Grupo privado no Telegram para esclarecimento de dúvidas e apoio motivacional."
             },
             {
-                "title": "Pilates e Mobilidade",
-                "description": "Oferta das nossas aulas online de mobilidade e pilates em direto com a nossa equipa de personal trainers."
+                "title": "Acesso à Nossa App Exclusiva",
+                "description": "TODO"
+            },
+            {
+                "title": "Anamnése Inicial",
+                "description": "TODO"
+            },
+            {
+                "title": "Grupo Privado no Telegram para Apoio Diário",
+                "description": "TODO"
             }
         ]
     }
