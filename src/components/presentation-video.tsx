@@ -10,7 +10,7 @@ const LiteYouTubeEmbed = dynamic(() =>
 const PresentationVideo = ( { className}: { className?: string} ) => {
 
     return (
-        <div className={`rounded-lg overflow-hidden w-full ${className}`}>
+        <div className={`rounded-lg aspect-video overflow-hidden w-full ${className}`}>
             <LiteYouTubeEmbed
                 containerElement={"div"}
                 aspectHeight={9}
