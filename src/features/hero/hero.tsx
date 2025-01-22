@@ -23,9 +23,7 @@ export function Hero() {
                         </span>
                     </h1>
 
-                    <div className={"sm:hidden w-full p-1"}>
-                        <PresentationVideo/>
-                    </div>
+                    <PresentationVideo className={"sm:hidden"}/>
 
                     <div className={"flex flex-col gap-2 text-center sm:text-left"}>
                         <Separator className={"w-8 bg-primary mx-auto sm:mx-0"}/>
@@ -50,9 +48,7 @@ export function Hero() {
 
                 </div>
 
-                <div className={"hidden sm:block sm:w-6/12 p-1"}>
-                    <PresentationVideo/>
-                </div>
+                <PresentationVideo className={"hidden sm:block sm:w-6/12"}/>
             </div>
             <Partners/>
         </div>
