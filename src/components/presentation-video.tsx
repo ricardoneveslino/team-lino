@@ -1,7 +1,12 @@
 "use client"
 
-import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
+import dynamic from "next/dynamic";
+import Loader from "@/components/loader";
+
+const LiteYouTubeEmbed = dynamic(() =>
+    import('react-lite-youtube-embed'), {ssr: false, loading: () => <Loader/>}
+)
 
 const PresentationVideo = ( { className}: { className?: string} ) => {
 
