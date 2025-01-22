@@ -2,10 +2,9 @@
 
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 import dynamic from "next/dynamic";
-import Loader from "@/components/loader";
 
 const LiteYouTubeEmbed = dynamic(() =>
-    import('react-lite-youtube-embed'), {ssr: false, loading: () => <Loader/>}
+    import('react-lite-youtube-embed'), {ssr: false}
 )
 
 const PresentationVideo = ( { className}: { className?: string} ) => {
