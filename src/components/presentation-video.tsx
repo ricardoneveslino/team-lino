@@ -4,7 +4,7 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 import dynamic from "next/dynamic";
 
 const LiteYouTubeEmbed = dynamic(() =>
-    import('react-lite-youtube-embed'), {ssr: false}
+    import('react-lite-youtube-embed'),
 )
 
 const PresentationVideo = ( { className}: { className?: string} ) => {
