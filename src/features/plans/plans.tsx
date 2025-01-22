@@ -1,6 +1,6 @@
 import {plans} from "@/data/plans";
 import {Button} from "@/components/ui/button";
-import {Check, CircleHelp} from "lucide-react";
+import {Check} from "lucide-react";
 import {TeamLinoLogo} from "@/components/team-lino-logo";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
 

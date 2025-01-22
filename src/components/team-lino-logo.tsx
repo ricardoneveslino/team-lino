@@ -1,8 +1,7 @@
-import React from 'react'
 import Link from "next/link";
 import {TeamLinoSymbol} from "@/components/brand-icons/team-lino-symbol";
 
-export const TeamLinoLogo = React.memo(() => {
+export const TeamLinoLogo = () => {
     return (
         <Link href={"/"}
               className={"flex-shrink-0 flex items-center gap-2 font-bold text-xl leading-none font-montserrat"}>
@@ -13,4 +12,4 @@ export const TeamLinoLogo = React.memo(() => {
             </div>
         </Link>
     )
-});
+}
