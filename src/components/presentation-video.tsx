@@ -1,11 +1,8 @@
-"use client";
-
 import dynamic from "next/dynamic";
-import Loader from "@/components/loader";
 
 // Dynamically import YouTubeEmbed with a loading state
-const YouTubeEmbed = dynamic(() => import("@next/third-parties/google").then((mod) => mod.YouTubeEmbed), {
-    loading: () => <Loader/>, // Display the placeholder while loading
+const YouTubeEmbed = dynamic(() =>
+    import("@next/third-parties/google").then((mod) => mod.YouTubeEmbed), {
 });
 
 const PresentationVideo = () => {
