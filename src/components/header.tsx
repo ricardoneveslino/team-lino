@@ -22,14 +22,11 @@ export function Header() {
                 <nav className={"hidden md:flex items-center gap-6"}>
                     <ul className={"flex gap-4 text-foreground/80 text-sm text-nowrap"}>
                         {menuItems.map(item =>
-                            <Link key={item.title}
-                                  href={item.href}
-                                  className={"transition-colors hover:text-primary"}
-                            >
-
-                                {item.title}
-
-                            </Link>
+                            <li key={item.title}>
+                                <Link href={item.href} className={"transition-colors hover:text-primary"}>
+                                    {item.title}
+                                </Link>
+                            </li>
                         )}
                     </ul>
                     <Separator orientation={"vertical"} className={"h-6"}/>
