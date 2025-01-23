@@ -13,7 +13,12 @@ const Plans = () => {
         <div className={"w-full flex flex-col items-center gap-8"}>
 
             {plans.map(plan =>
-                <Plan key={plan.name} plan={plan}/>
+                <div key={plan.name}>
+                    <Plan plan={plan}/>
+                    {plan.specialOffer && <p className={"text-center sm:text-left text-sm m-1"}>
+                        <span className={"font-semibold text-primary"}> Oferta Especial: </span> {plan.specialOffer}
+                    </p>}
+                </div>
             )}
 
             <span> Ou </span>
