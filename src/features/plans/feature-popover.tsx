@@ -16,8 +16,10 @@ const FeaturePopover = ({ feature }: FeatureProps) => {
         <Popover>
             <PopoverTrigger className={"flex items-center gap-2 text-sm cursor-pointer group"}>
                 <Check size={16} className={"flex-shrink-0"}/>
-                <span className={"text-left group-hover:underline"}>{feature.title}</span>
-                <span className={"text-[10px] text-foreground/75 -ms-1 -mt-1"}> ? </span>
+                <p className={"text-left group-hover:underline"}>
+                    {feature.title}
+                    <span className={"text-[10px] text-foreground/75 align-top"}> ? </span>
+                </p>
             </PopoverTrigger>
             <PopoverContent className={"text-sm bg-background border w-96"}>
                 {feature.description}

@@ -23,21 +23,17 @@ export const plans = [
                 "description": "Follow up semanal para análise dos progressos e ajuste dos planos de treino e nutrição e suplementação (se necessário)."
             },
             {
-                "title": "Grupo Privado Telegram",
-                "description": "Grupo privado no Telegram para esclarecimento de dúvidas e apoio motivacional."
+                "title": "Acompanhamento pelo Telegram",
+                "description": "Grupo privado no Telegram para esclarecimento de dúvidas e apoio motivacional para apoio diário."
             },
             {
                 "title": "Acesso à Nossa App Exclusiva",
-                "description": "TODO"
+                "description": "Na nossa App, encontrarás os teus planos de treino e nutrição reunidos num só lugar. É também aqui que registas o teu follow-up semanal, garantindo acesso rápido e prático a todas as informações."
             },
             {
                 "title": "Anamnése Inicial",
-                "description": "TODO"
+                "description": "Formulário detalhado sobre informações gerais, objetivos, historial físico e clínico, nutrição e fotografias atuais para levantamento do teu estado atual e estabelecermos o plano de ação ajustado às tuas necessidades e objetivos"
             },
-            {
-                "title": "Grupo Privado no Telegram para Apoio Diário",
-                "description": "TODO"
-            }
         ]
     },
     {
@@ -64,21 +60,17 @@ export const plans = [
                 "description": "Follow up semanal para análise dos progressos e ajuste dos planos de treino e nutrição e suplementação (se necessário)."
             },
             {
-                "title": "Grupo Privado Telegram",
-                "description": "Grupo privado no Telegram para esclarecimento de dúvidas e apoio motivacional."
+                "title": "Acompanhamento pelo Telegram",
+                "description": "Grupo privado no Telegram para esclarecimento de dúvidas e apoio motivacional para apoio diário."
             },
             {
                 "title": "Acesso à Nossa App Exclusiva",
-                "description": "TODO"
+                "description": "Na nossa App, encontrarás os teus planos de treino e nutrição reunidos num só lugar. É também aqui que registas o teu follow-up semanal, garantindo acesso rápido e prático a todas as informações."
             },
             {
                 "title": "Anamnése Inicial",
-                "description": "TODO"
+                "description": "Formulário detalhado sobre informações gerais, objetivos, historial físico e clínico, nutrição e fotografias atuais para levantamento do teu estado atual e estabelecermos o plano de ação ajustado às tuas necessidades e objetivos"
             },
-            {
-                "title": "Grupo Privado no Telegram para Apoio Diário",
-                "description": "TODO"
-            }
         ]
     }
 ]
