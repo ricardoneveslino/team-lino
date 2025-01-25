@@ -16,17 +16,17 @@ const AboutUs = () => {
                         A Team Lino é muito mais do que uma equipa de profissionais – é uma empresa dedicada a
                         transformar vidas. Liderada por Ricardo Lino e André Lino!
                         Pai e filho juntos, trazemos conosco mais de 30 anos de experiência na área do fitness.
-                        <br/><br/>
-                        Atualmente, contamos com três estúdios de treino personalizado à porta fechada, onde cada
-                        cliente é acompanhado exclusivamente por um dos nossos Personal Trainers. Estes espaços foram
-                        criados para garantir um ambiente privado, seguro e totalmente focado nos objetivos de cada
-                        pessoa.
                     </p>
 
                     <Collapsible className={"flex flex-col gap-4"}>
                         <CollapsibleTrigger className={"text-sm font-semibold text-center sm:text-left"}>Continuar a ler...</CollapsibleTrigger>
                         <CollapsibleContent>
                             <p className={"text-balance text-center sm:text-left"}>
+                                Atualmente, contamos com três estúdios de treino personalizado à porta fechada, onde cada
+                                cliente é acompanhado exclusivamente por um dos nossos Personal Trainers. Estes espaços foram
+                                criados para garantir um ambiente privado, seguro e totalmente focado nos objetivos de cada
+                                pessoa.
+                                <br/><br/>
                                 Com o crescimento da nossa marca e o aumento do número de pessoas que confiam no nosso trabalho,
                                 decidimos expandir o nosso negócio para o online. Desta forma, conseguimos levar o nosso
                                 acompanhamento especializado a todos, independentemente da localização!
