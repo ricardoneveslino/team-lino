@@ -23,5 +23,17 @@ export const transformations = [
     {
         id: 6,
         image: "https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/transformation_6.png"
+    },
+    {
+        id: 7,
+        image: "https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/transformation_7.png"
+    },
+    {
+        id: 8,
+        image: "https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/transformation_8.png"
+    },
+    {
+        id: 9,
+        image: "https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/transformation_9.png"
     }
 ]
