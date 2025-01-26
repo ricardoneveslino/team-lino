@@ -52,11 +52,11 @@ const TransformationCard = ({transformation}: TransformationCardProps) => {
             <Image
                 loading={"lazy"}
                 src={transformation.image}
-                alt={""}
-                width={1000}
-                height={1000}
+                alt={`Transformation ${transformation.id}`}
+                width={800}
+                height={800}
                 className={"object-cover"}
-                sizes={"60vh"}
+                sizes={"50vw"}
             />
         </CarouselItem>
     )

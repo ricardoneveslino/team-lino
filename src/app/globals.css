@@ -89,7 +89,7 @@
   @media (prefers-reduced-motion: no-preference) {
 
     .scroll-animate {
-      @apply opacity-0 transition-all duration-1000 blur -translate-x-full;
+      @apply opacity-0 transition-all duration-1000 blur-sm -translate-x-full;
     }
 
     .scroll-animate.show{

@@ -21,7 +21,7 @@ const Plans = () => {
 
             <span> Ou </span>
 
-            <div className={`flex flex-col items-center gap-8 border rounded-lg p-8 scroll-animate delay-${(plansCount + 1) * 400}`}>
+            <div className={`flex flex-col items-center gap-8 border rounded-lg p-8 scroll-animate`}>
                 <h3 className={"text-xl font-bold mb-2 text-center flex flex-col items-center gap-2"}>
                     <span> Pack Especial </span>
                     <TeamLinoLogo />
@@ -59,7 +59,7 @@ interface PlanProps {
 
 const Plan = ({plan}: PlanProps) => {
 
-    const animationDelay = plan.id * 400
+    const animationDelay = (plan.id - 1) * 400
 
     return (
         <div className={`relative border rounded-lg p-8 space-y-4 w-full scroll-animate delay-[${animationDelay}]`}>

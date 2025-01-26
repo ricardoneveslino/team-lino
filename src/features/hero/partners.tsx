@@ -25,12 +25,14 @@ interface PartnerCardProps {
 
 const PartnerCard = ({ partner }: PartnerCardProps) => {
 
+    const scrollAnimationDelay = (partner.id - 1) * 400
+
     return (
         <a
             href={partner.website}
             target="_blank"
             rel="noopener noreferrer"
-            className={`group flex items-center rounded-lg relative hover:scale-95 transition-transform w-full max-w-lg p-1`}
+            className={`group flex items-center rounded-lg relative hover:scale-95 transition-transform w-full max-w-lg p-1 scroll-animate delay-[${scrollAnimationDelay}]`}
         >
             <span className={`absolute inset-0 z-[-1] opacity-25 blur rounded-lg`} style={{ background: partner.color }}>
 
