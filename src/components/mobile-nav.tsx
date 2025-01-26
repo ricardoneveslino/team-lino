@@ -1,5 +1,13 @@
 import React from 'react'
-import {Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger} from "@/components/ui/sheet";
+import {
+    Sheet,
+    SheetClose,
+    SheetContent,
+    SheetDescription,
+    SheetHeader,
+    SheetTitle,
+    SheetTrigger
+} from "@/components/ui/sheet";
 import {Button} from "@/components/ui/button";
 import {Menu} from "lucide-react";
 import {TeamLinoLogo} from "@/components/team-lino-logo";
@@ -19,7 +27,9 @@ const MobileNav = () => {
             <SheetContent side="right" className="flex flex-col gap-8 w-[300px] sm:w-[400px]">
                 <SheetHeader>
                     <SheetTitle>
-                        <TeamLinoLogo/>
+                        <SheetClose asChild>
+                            <TeamLinoLogo/>
+                        </SheetClose>
                     </SheetTitle>
                     <SheetDescription className={"sr-only"}> Menu de Navegação </SheetDescription>
                 </SheetHeader>
@@ -27,9 +37,11 @@ const MobileNav = () => {
                     <ul className="flex flex-col text-sm text-foreground/80">
                         {menuItems.map((item) => (
                             <li key={item.title} className={"flex"}>
-                                <Link href={item.href} className="transition-colors hover:text-primary flex-1 py-2">
-                                    {item.title}
-                                </Link>
+                                <SheetClose asChild>
+                                    <Link href={item.href} className="transition-colors hover:text-primary flex-1 py-2">
+                                        {item.title}
+                                    </Link>
+                                </SheetClose>
                             </li>
                         ))}
                     </ul>
