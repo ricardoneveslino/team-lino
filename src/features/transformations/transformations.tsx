@@ -15,7 +15,7 @@ const Transformations = () => {
 
             <CarouselPrevious
                 className={
-                    "relative left-0 rounded border-none z-20 bg-background/10 hover:bg-background/20 h-full p-2"
+                    "hidden sm:flex relative left-0 rounded border-none z-20 bg-background/10 hover:bg-background/20 h-full p-2"
                 }
             />
 
@@ -31,7 +31,7 @@ const Transformations = () => {
 
             <CarouselNext
                 className={
-                    "relative right-0 rounded border-none z-20 bg-background/10 hover:bg-background/20 h-full p-2"
+                    "hidden sm:flex relative right-0 rounded border-none z-20 bg-background/10 hover:bg-background/20 h-full p-2"
                 }
             />
         </Carousel>
@@ -48,7 +48,7 @@ interface TransformationCardProps {
 const TransformationCard = ({transformation}: TransformationCardProps) => {
 
     return (
-        <CarouselItem className={"basis-auto aspect-square w-8/12"}>
+        <CarouselItem className={"basis-auto aspect-square w-8/12 flex justify-center items-center"}>
             <Image
                 loading={"lazy"}
                 src={transformation.image}
