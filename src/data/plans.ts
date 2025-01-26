@@ -1,6 +1,7 @@
 
 export const plans = [
     {
+        id: 1,
         name: "Mensal",
         price: 75,
         periodicity: "1 mês",
@@ -37,6 +38,7 @@ export const plans = [
         ]
     },
     {
+        id: 2,
         name: "Trimestral",
         price: 200,
         periodicity: "3 meses",

@@ -9,17 +9,31 @@ import {
 } from "@/components/ui/carousel"
 
 const Transformations = () => {
+
     return (
-        <Carousel className={"w-10/12 md:w-8/12 lg:w-6/12 mx-auto"} >
-            <CarouselContent className={""}>
+        <Carousel className={"w-full max-w-[800px] mx-auto flex items-center justify-center scroll-animate"} opts={{loop: true}}>
 
-                {transformations.map(transformation =>
-                    <TransformationCard key={transformation.id} transformation={transformation}/>
-                )}
+            <CarouselPrevious
+                className={
+                    "relative left-0 rounded border-none z-20 bg-background/10 hover:bg-background/20 h-full p-2"
+                }
+            />
 
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <div className={"mask-fade"}>
+                <CarouselContent>
+
+                    {transformations.map(transformation =>
+                        <TransformationCard key={transformation.id} transformation={transformation}/>
+                    )}
+
+                </CarouselContent>
+            </div>
+
+            <CarouselNext
+                className={
+                    "relative right-0 rounded border-none z-20 bg-background/10 hover:bg-background/20 h-full p-2"
+                }
+            />
         </Carousel>
 
     )
@@ -34,15 +48,15 @@ interface TransformationCardProps {
 const TransformationCard = ({transformation}: TransformationCardProps) => {
 
     return (
-        <CarouselItem className={"flex aspect-square p-2 sm:p-4 md:p-8 lg:p-12"}>
+        <CarouselItem className={"basis-auto aspect-square w-8/12"}>
             <Image
                 loading={"lazy"}
                 src={transformation.image}
                 alt={""}
                 width={1000}
                 height={1000}
-                className={"flex-1 rounded-lg object-contain"}
-                sizes={"(max-width: 640px) 80vw, 40vw"}
+                className={"object-cover"}
+                sizes={"60vh"}
             />
         </CarouselItem>
     )

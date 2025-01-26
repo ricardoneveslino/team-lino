@@ -9,6 +9,9 @@ const FeaturePopover = dynamic(() =>
 )
 
 const Plans = () => {
+
+    const plansCount = plans.length;
+
     return (
         <div className={"w-full flex flex-col items-center gap-8"}>
 
@@ -18,7 +21,7 @@ const Plans = () => {
 
             <span> Ou </span>
 
-            <div className={"flex flex-col items-center gap-8 border rounded-lg p-8"}>
+            <div className={`flex flex-col items-center gap-8 border rounded-lg p-8 scroll-animate delay-${(plansCount + 1) * 400}`}>
                 <h3 className={"text-xl font-bold mb-2 text-center flex flex-col items-center gap-2"}>
                     <span> Pack Especial </span>
                     <TeamLinoLogo />
@@ -56,8 +59,10 @@ interface PlanProps {
 
 const Plan = ({plan}: PlanProps) => {
 
+    const animationDelay = plan.id * 400
+
     return (
-        <div className={"relative border rounded-lg p-8 space-y-4 w-full"}>
+        <div className={`relative border rounded-lg p-8 space-y-4 w-full scroll-animate delay-[${animationDelay}]`}>
             <div className={"w-full flex flex-col sm:flex-row items-stretch gap-4"}>
                 <div className={"flex-1"}>
 

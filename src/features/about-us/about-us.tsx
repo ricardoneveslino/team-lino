@@ -11,7 +11,7 @@ const AboutUs = () => {
     return (
         <div className={"w-full flex flex-col sm:flex-row gap-4 justify-start items-start"}>
             <div className={"flex-1 flex gap-4"}>
-                <div className={"flex-1 space-y-4"}>
+                <div className={"flex-1 space-y-4 scroll-animate delay-400"}>
                     <p className={"text-balance text-center sm:text-left"}>
                         A Team Lino é muito mais do que uma equipa de profissionais – é uma empresa dedicada a
                         transformar vidas. Liderada por Ricardo Lino e André Lino!
@@ -43,7 +43,7 @@ const AboutUs = () => {
 
                 </div>
             </div>
-            <div className={"flex-1 flex gap-2"}>
+            <div className={"flex-1 flex gap-2 scroll-animate"}>
                 <div className={"flex-1"}>
                     <Image
                         loading={"lazy"}
