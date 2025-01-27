@@ -37,7 +37,7 @@ export function Hero() {
                                 Escolhe o Teu Plano
                             </a>
                         </Button>
-                        <Button variant={"default"} className={"font-medium hover:-translate-y-1 transition-transform scroll-animate delay-[400]"}
+                        <Button variant={"default"} className={"font-medium hover:-translate-y-1 transition-transform scroll-animate delay-100"}
                                 asChild>
                             <a href={"https://signup-teamlino.mkgest.com"} target={"_blank"} rel={"noreferrer nofolow"}>
                                 <Dumbbell className={"inline"} size={16}/>

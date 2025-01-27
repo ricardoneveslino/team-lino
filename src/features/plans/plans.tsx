@@ -57,10 +57,8 @@ interface PlanProps {
 
 const Plan = ({plan}: PlanProps) => {
 
-    const animationDelay = (plan.id - 1) * 400
-
     return (
-        <div className={`relative border rounded-lg p-8 space-y-4 w-full scroll-animate delay-[${animationDelay}]`}>
+        <div className={`relative border rounded-lg p-8 space-y-4 w-full scroll-animate`}>
             <div className={"w-full flex flex-col sm:flex-row items-stretch gap-4"}>
                 <div className={"flex-1"}>
 

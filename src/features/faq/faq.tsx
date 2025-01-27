@@ -13,7 +13,7 @@ const Faq = () => {
         <Accordion type="multiple">
 
             {faq.map((item, index) => 
-                <AccordionItem key={item.question} value={`item-${index + 1}`} className={`scroll-animate delay-[${index * 400}]`}>
+                <AccordionItem key={item.question} value={`item-${index + 1}`} className={`scroll-animate`}>
                     <AccordionTrigger>{item.question}</AccordionTrigger>
                     <AccordionContent>
                         {item.answer}
