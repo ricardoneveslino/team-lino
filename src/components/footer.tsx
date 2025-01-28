@@ -70,7 +70,7 @@ export const Footer = () => {
                                src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/blueprint_symbol_white.png"
                                alt="Blueprint Web Logo" width={12} height={12}/>
                     <Image className={"-translate-y-[1px] inline dark:hidden"} src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/blueprint_symbol_black.png" alt="Blueprint Web Logo" width={12} height={12}/>
-                        {" "} Blueprint Web Team
+                        {" "} Web Blueprint Team
                     </a>
                 </span>
             </div>
