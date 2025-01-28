@@ -5,6 +5,7 @@ import {Instagram} from "@/components/brand-icons/instagram";
 import {Youtube} from "@/components/brand-icons/youtube";
 import {Whatsapp} from "@/components/brand-icons/whatsapp";
 import {Twitch} from "@/components/brand-icons/twitch";
+import Link from "next/link";
 
 export const Footer = () => {
 
@@ -65,11 +66,13 @@ export const Footer = () => {
             <div className={"w-full flex flex-col sm:flex-row items-center justify-between gap-2 text-xs"}>
                 <span>© {currentYear} Team Lino. All rights reserved.</span>
                 <span>Developed by: {" "}
-                    <Image className={"-translate-y-[1px] hidden dark:inline"}
-                           src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/blueprint_symbol_white.png"
-                           alt="Blueprint Web Logo" width={12} height={12}/>
+                    <a target="_blank" rel="noopener noreferrer" href="https://web.blueprint-soft.com">
+                        <Image className={"-translate-y-[1px] hidden dark:inline"}
+                               src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/blueprint_symbol_white.png"
+                               alt="Blueprint Web Logo" width={12} height={12}/>
                     <Image className={"-translate-y-[1px] inline dark:hidden"} src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/blueprint_symbol_black.png" alt="Blueprint Web Logo" width={12} height={12}/>
-                    {" "} Blueprint Web Team
+                        {" "} Blueprint Web Team
+                    </a>
                 </span>
             </div>
 
