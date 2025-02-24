@@ -3,7 +3,6 @@ import Image from 'next/image'
 import {TeamLinoLogo} from "@/components/team-lino-logo";
 import {Instagram} from "@/components/brand-icons/instagram";
 import {Youtube} from "@/components/brand-icons/youtube";
-import {Whatsapp} from "@/components/brand-icons/whatsapp";
 import {Twitch} from "@/components/brand-icons/twitch";
 
 export const Footer = () => {
