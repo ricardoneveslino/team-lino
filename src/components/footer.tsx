@@ -13,45 +13,29 @@ export const Footer = () => {
     return (
         <footer className="flex w-full flex-col bg-gradient-to-b p-4 from-background to-primary/20 lg:px-32 min-h-56">
 
-            <div className={"flex flex-col sm:flex-row justify-center items-center gap-12 h-full py-8"}>
+            <div className={"flex flex-col-reverse sm:flex-row justify-between items-center gap-12 h-full py-8 w-full"}>
 
-                <div className={"flex-1 gap-2 h-full"}>
-                    <h2 className={"text-xl text-center sm:text-left font-bold mb-2"}>Tens Dúvidas?</h2>
-                    <a
-                        href="https://wa.link/7kuau9"
-                        target="_blank"
-                        rel="nopener nofollow"
-                        className={
-                            "flex items-center gap-4 px-4 py-2 bg-[#25D366]/10 text-[#25D366] rounded-md hover:bg-[#25D366]/20 transition-colors w-fit"
-                        }
-                    >
-                        <span>Fala Connosco</span>
-                        <Whatsapp className={"w-5 h-5"}/>
-                    </a>
-                </div>
-
-
-                <div className={"flex-1 flex justify-center items-start h-full order-3 sm:order-none"}>
+                <div className={"flex justify-center items-start h-full order-3 sm:order-none"}>
                     <TeamLinoLogo/>
                 </div>
-                <div className={"flex-1 h-full"}>
+                <div className={"h-full"}>
                     <h2 className={"text-xl font-bold mb-2 text-center sm:text-left"}>Redes Sociais</h2>
-                    <div className={"flex flex-col items-start gap-2"}>
-                        <a className="flex items-center gap-2 rounded-lg p-1 group" target="_blank"
+                    <div className={"flex flex-col items-center sm:items-end gap-2"}>
+                        <a className="flex flex-row-reverse items-center gap-2 rounded-lg p-1 group" target="_blank"
                            href={"https://www.youtube.com/@Andre_Lino"}
                            rel="noopener noreferrer"
                         >
                             <Youtube className="inline"/>
                             <span className="text-xs group-hover:underline">YouTube</span>
                         </a>
-                        <a className="flex items-center gap-2 rounded-lg p-1 group" target="_blank"
+                        <a className="flex flex-row-reverse items-center gap-2 rounded-lg p-1 group" target="_blank"
                            href="https://www.instagram.com/andree_linoo/"
                            rel="noopener noreferrer"
                         >
                             <Instagram className="inline"/>
                             <span className="text-xs group-hover:underline">Instagram</span>
                         </a>
-                        <a className={"flex items-center gap-2 rounded-lg p-1 group"} target="_blank"
+                        <a className={"flex flex-row-reverse items-center gap-2 rounded-lg p-1 group"} target="_blank"
                            href="https://www.twitch.tv/andree_linoo"
                            rel="noopener noreferrer">
                             <Twitch className={"inline"}/>

@@ -50,7 +50,6 @@ export function Hero() {
 
                 <PresentationVideo className={"hidden sm:block sm:w-6/12"}/>
             </div>
-            <Partners/>
         </div>
     )
 }
