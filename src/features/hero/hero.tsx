@@ -2,7 +2,6 @@ import {TeamLinoLogo} from "@/components/team-lino-logo";
 import {Separator} from "@/components/ui/separator";
 import {Button} from "@/components/ui/button";
 import {Dumbbell, NotebookPen} from "lucide-react";
-import {Partners} from "@/features/hero/partners";
 import PresentationVideo from "@/components/presentation-video";
 
 export function Hero() {
