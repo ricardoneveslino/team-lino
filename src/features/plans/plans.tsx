@@ -2,11 +2,7 @@ import {plans} from "@/data/plans";
 import {Button} from "@/components/ui/button";
 import {Check} from "lucide-react";
 import {TeamLinoLogo} from "@/components/team-lino-logo";
-import dynamic from "next/dynamic";
-
-const FeaturePopover = dynamic(() =>
-    import('@/features/plans/feature-popover')
-)
+import FeaturePopover from "@/features/plans/feature-popover";
 
 const Plans = () => {
 

@@ -6,6 +6,7 @@ import {Header} from "@/components/header";
 import React from "react";
 import {Footer} from "@/components/footer";
 import ScrollObserver from "@/components/scroll-observer";
+import ScrollLinked from "@/components/scroll-linked";
 
 export const metadata: Metadata = {
   title: "Team Lino",
@@ -22,7 +23,8 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} antialiased`}
       >
-        <ScrollObserver/>
+      <ScrollLinked/>
+      <ScrollObserver/>
           <ThemeProvider
               attribute="class"
               defaultTheme="dark"
