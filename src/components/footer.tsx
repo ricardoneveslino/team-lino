@@ -1,22 +1,27 @@
 import React from 'react'
 import Image from 'next/image'
-import {TeamLinoLogo} from "@/components/team-lino-logo";
 import {Instagram} from "@/components/brand-icons/instagram";
 import {Youtube} from "@/components/brand-icons/youtube";
 import {Twitch} from "@/components/brand-icons/twitch";
+import Link from "next/link";
 
 export const Footer = () => {
 
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="flex w-full flex-col bg-gradient-to-b p-4 from-background to-primary/20 lg:px-32 min-h-56">
+        <footer className="w-screen bg-gradient-to-b p-4 from-background to-primary/20 min-h-56">
 
-            <div className={"flex flex-col-reverse sm:flex-row justify-between items-center gap-12 h-full py-8 w-full"}>
-
-                <div className={"flex justify-center items-start h-full order-3 sm:order-none"}>
-                    <TeamLinoLogo/>
+            <div className={"flex flex-col-reverse sm:flex-row justify-between gap-12 h-full py-8 w-full max-w-[1200px] mx-auto"}>
+                <div className={"h-full"}>
+                    <h2 className={"text-xl font-bold mb-2 text-center sm:text-left"}>Outros</h2>
+                    <nav className={"text-xs flex flex-col items-center sm:items-start"}>
+                        <Link href={"/terms-and-conditions"} className={"hover:underline"}>
+                            Termos e condições
+                        </Link>
+                    </nav>
                 </div>
+
                 <div className={"h-full"}>
                     <h2 className={"text-xl font-bold mb-2 text-center sm:text-left"}>Redes Sociais</h2>
                     <div className={"flex flex-col items-center sm:items-end gap-2"}>
@@ -44,8 +49,7 @@ export const Footer = () => {
                 </div>
             </div>
 
-
-            <div className={"w-full flex flex-col sm:flex-row items-center justify-between gap-2 text-xs"}>
+            <div className={"w-full flex flex-col sm:flex-row items-center justify-between gap-2 text-xs max-w-[1200px] mx-auto"}>
                 <span>© {currentYear} Team Lino. All rights reserved.</span>
                 <span>Developed by: {" "}
                     <a target="_blank" rel="noopener noreferrer" href="https://web.blueprint-soft.com">
@@ -57,8 +61,6 @@ export const Footer = () => {
                     </a>
                 </span>
             </div>
-
-
         </footer>
     )
 }

@@ -13,7 +13,7 @@ export function Hero() {
 
                 <div className={"w-full sm:w-6/12 flex flex-col gap-6 items-center sm:items-start"}>
 
-                    <TeamLinoLogo/>
+                    <TeamLinoLogo className={"hidden sm:block"}/>
                     <h1 className="text-center text-3xl font-bold md:text-4xl lg:text-6xl xl:text-7xl text-balance sm:text-left">
                         Transforma Objetivos em{" "}
                         <span
