@@ -1,4 +1,3 @@
-import {TeamLinoLogo} from "@/components/team-lino-logo";
 import {Separator} from "@/components/ui/separator";
 import {Button} from "@/components/ui/button";
 import {Dumbbell, NotebookPen} from "lucide-react";
@@ -7,14 +6,13 @@ import PresentationVideo from "@/components/presentation-video";
 export function Hero() {
 
     return (
-        <div className={"h-full w-full flex flex-col items-center justify-center gap-12 sm:gap-32"}>
+        <div className={"h-full w-full flex flex-col items-center gap-12 sm:gap-32"}>
 
-            <div className={"flex flex-col gap-16 sm:flex-row items-center justify-center w-full"}>
+            <div className={"flex flex-col gap-16 sm:flex-row items-center justify-center w-full py-8 md:py-16"}>
 
                 <div className={"w-full sm:w-6/12 flex flex-col gap-6 items-center sm:items-start"}>
 
-                    <TeamLinoLogo className={"hidden sm:block"}/>
-                    <h1 className="text-center text-3xl font-bold md:text-4xl lg:text-6xl xl:text-7xl text-balance sm:text-left">
+                    <h1 className="text-center text-3xl font-bold md:text-4xl lg:text-6xl xl:text-7xl text-pretty sm:text-left">
                         Transforma Objetivos em{" "}
                         <span
                             className="bg-gradient-to-r from-primary via-[#ff6b6f] to-[#ff999a] bg-clip-text text-transparent">
