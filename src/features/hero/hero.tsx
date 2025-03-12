@@ -6,9 +6,9 @@ import PresentationVideo from "@/components/presentation-video";
 export function Hero() {
 
     return (
-        <div className={"h-full w-full flex flex-col items-center gap-12 sm:gap-32"}>
+        <div className={"h-full w-full flex flex-col items-center md:justify-center gap-12 sm:gap-32"}>
 
-            <div className={"flex flex-col gap-16 sm:flex-row items-center justify-center w-full py-8 md:py-16"}>
+            <div className={"flex flex-col gap-16 sm:flex-row items-center justify-center w-full py-8 md:py-0"}>
 
                 <div className={"w-full sm:w-6/12 flex flex-col gap-6 items-center sm:items-start"}>
 
