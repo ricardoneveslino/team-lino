@@ -8,6 +8,7 @@ import { Footer } from "@/components/footer";
 import ScrollObserver from "@/components/scroll-observer";
 import ScrollLinked from "@/components/scroll-linked";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"; // Importando o SpeedInsights
 
 export const metadata: Metadata = {
   title: "Team Lino",
@@ -34,6 +35,7 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
         </ThemeProvider>
+        <SpeedInsights /> {/* Adicionando o SpeedInsights aqui */}
         <Analytics />
       </body>
     </html>
