@@ -10,7 +10,7 @@ export const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="w-screen bg-gradient-to-b p-4 from-background to-primary/20 min-h-56">
+        <footer className="bg-gradient-to-b p-4 from-background to-primary/20 min-h-56">
 
             <div className={"flex flex-col-reverse sm:flex-row justify-between gap-12 h-full py-8 w-full max-w-[1200px] mx-auto"}>
                 <div className={"h-full"}>
