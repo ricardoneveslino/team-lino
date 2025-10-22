@@ -18,7 +18,7 @@ export default function Home() {
         
         {/* Título sem classes de cor diferentes */}
         <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 leading-tight">
-            Transformações.
+            Transformações
         </h2>
         
         <p className="text-lg text-gray-400 mx-auto max-w-3xl">
