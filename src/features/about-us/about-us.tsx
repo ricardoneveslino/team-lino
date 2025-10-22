@@ -47,7 +47,7 @@ const AboutUs = () => {
                 <div className={"flex-1"}>
                     <Image
                         loading={"lazy"}
-                        src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/ricardo_e_andre.jpeg"
+                        src="/RicardoAndre1.jpg"
                         alt="Ricardo Lino e André Lino"
                         width={600}
                         height={600}
@@ -59,7 +59,7 @@ const AboutUs = () => {
                 <div className={"flex-1 bg-black rounded"}>
                     <Image
                         loading={"lazy"}
-                        src="https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/team_lino.png"
+                        src="/RicardoAndre2.jpg"
                         alt="Ricardo Lino e André Lino"
                         width={600}
                         height={600}

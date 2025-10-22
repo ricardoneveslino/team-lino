@@ -8,9 +8,9 @@ const nextConfig: NextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'oemzduzzsdzlouednwio.supabase.co',
+                hostname: 'qnkqzalychzpbdpahpuv.supabase.co',
                 port: '',
-                pathname: '/storage/v1/object/public/team_lino_website/**',
+                pathname: '/storage/v1/object/public/teamlino/**',
                 search: '',
             },
         ],

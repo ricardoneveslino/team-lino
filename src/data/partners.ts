@@ -7,7 +7,7 @@ export const partners = [
         color: "#007cf7",
         discountValue: "10%",
         discountCode: "PTLINO",
-        logoWhite: "https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/zumub_white.png",
-        logoBlack: "https://oemzduzzsdzlouednwio.supabase.co/storage/v1/object/public/team_lino_website/zumub_black.png"
+        logoWhite: "/zumub_logo_bf.png",
+        logoBlack: "https://qnkqzalychzpbdpahpuv.supabase.co/storage/v1/object/public/teamlino/transformation_1.png"
     }
 ]
