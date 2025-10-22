@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import {Instagram} from "@/components/brand-icons/instagram";
 import {Youtube} from "@/components/brand-icons/youtube";
 import {Twitch} from "@/components/brand-icons/twitch";
