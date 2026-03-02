@@ -1,7 +1,5 @@
 import {plans} from "@/data/plans";
 import {Button} from "@/components/ui/button";
-import {Check} from "lucide-react";
-import {TeamLinoLogo} from "@/components/team-lino-logo";
 import FeaturePopover from "@/features/plans/feature-popover";
 
 const Plans = () => {
@@ -12,36 +10,6 @@ const Plans = () => {
             {plans.map(plan =>
                 <Plan key={plan.name} plan={plan}/>
             )}
-
-            <span> Ou </span>
-
-            <div className={`flex flex-col items-center gap-8 border rounded-lg p-8 scroll-animate`}>
-                <h3 className={"text-xl font-bold mb-2 text-center flex flex-col items-center gap-2"}>
-                    <span> Pack Especial </span>
-                    <TeamLinoLogo />
-                </h3>
-                <div className={"flex flex-col items-center gap-2"}>
-                    <div className={"flex items-center gap-2 text-sm"}>
-                        <Check size={16} className={"flex-shrink-0"}/>
-                        <span> Treino presencial com os Linos </span>
-                    </div>
-                    <div className={"flex items-center gap-2 text-sm"}>
-                        <Check size={16} className={"flex-shrink-0"}/>
-                        <span> Avaliação do Shape </span>
-                    </div>
-                </div>
-
-                <div className={"flex flex-col justify-center items-center gap-4 text-center"}>
-                    <h4 className={"text-5xl font-bold"}>
-                        75€
-                    </h4>
-                    <Button variant={"contrast"} className={"h-12 px-16 w-full"} asChild>
-                        <a href={"https://formulario.teamlino.pt/"} target={"_blank"} rel={"noreferrer nofolow"}>
-                            Aderir
-                        </a>
-                    </Button>
-                </div>
-            </div>
 
         </div>
     )

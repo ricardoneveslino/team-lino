@@ -1,7 +1,6 @@
 import React from 'react'
 import {Instagram} from "@/components/brand-icons/instagram";
 import {Youtube} from "@/components/brand-icons/youtube";
-import {Twitch} from "@/components/brand-icons/twitch";
 import Link from "next/link";
 
 export const Footer = () => {
