@@ -36,7 +36,7 @@ export function Hero() {
                         </Button>
                         <Button variant={"default"} className={"font-medium scroll-animate !duration-300"}
                                 asChild>
-                            <a href={"https://signup-teamlino.mkgest.com"} target={"_blank"} rel={"noreferrer nofolow"}>
+                            <a href={"https://formulario.teamlino.pt/"} target={"_blank"} rel={"noreferrer nofolow"}>
                                 <Dumbbell className={"inline"} size={16}/>
                                 Inicia a Tua Transformação
                             </a>

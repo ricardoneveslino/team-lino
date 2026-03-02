@@ -36,7 +36,7 @@ const Plans = () => {
                         75€
                     </h4>
                     <Button variant={"contrast"} className={"h-12 px-16 w-full"} asChild>
-                        <a href={"https://signup-teamlino.mkgest.com"} target={"_blank"} rel={"noreferrer nofolow"}>
+                        <a href={"https://formulario.teamlino.pt/"} target={"_blank"} rel={"noreferrer nofolow"}>
                             Aderir
                         </a>
                     </Button>
@@ -81,7 +81,7 @@ const Plan = ({plan}: PlanProps) => {
                     </span>
                     </div>
                     <Button variant={"contrast"} className={"h-12 px-16 w-full"} asChild>
-                        <a href={"https://signup-teamlino.mkgest.com"} target={"_blank"} rel={"noreferrer nofolow"}>
+                        <a href={"https://formulario.teamlino.pt/"} target={"_blank"} rel={"noreferrer nofolow"}>
                             Aderir
                         </a>
                     </Button>

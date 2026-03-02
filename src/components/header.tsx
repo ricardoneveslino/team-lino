@@ -31,7 +31,7 @@ export function Header() {
                     </ul>
                     <Separator orientation={"vertical"} className={"h-6"}/>
                     <Button variant={"default"} asChild>
-                        <a href={"https://signup-teamlino.mkgest.com"} target={"_blank"} rel={"noreferrer nofolow"}>
+                        <a href={"https://formulario.teamlino.pt/"} target={"_blank"} rel={"noreferrer nofolow"}>
                             Começa Já
                         </a>
                     </Button>
