@@ -19,6 +19,12 @@ export function Hero() {
                         </span>
                     </h1>
 
+                    {/* photo replacement for presentation video */}
+                    <img
+                        src="https://formulario.teamlino.pt/teamlino.png"
+                        alt="Team Lino presentation"
+                        className="sm:hidden w-full max-w-xs mx-auto"
+                    />
 
                     <div className={"flex flex-col gap-4 text-center sm:text-left"}>
                         <Separator className={"w-8 bg-primary mx-auto sm:mx-0"}/>
@@ -43,6 +49,12 @@ export function Hero() {
 
                 </div>
 
+                {/* desktop version of the photo */}
+                <img
+                    src="https://formulario.teamlino.pt/teamlino.png"
+                    alt="Team Lino presentation"
+                    className="hidden sm:block sm:w-6/12 object-cover"
+                />
             </div>
         </div>
     )
