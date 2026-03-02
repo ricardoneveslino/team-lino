@@ -18,7 +18,7 @@ const Page = () => {
             <p>Contacto: +351 938 652 808</p>
             <p>Email: info@teamlino.pt</p>
           </div>
-          <p className="mt-2 italic text-gray-400">Doravante designada por "TeamLino".</p>
+          <p className="mt-2 italic text-gray-400">Doravante designada por &quot;TeamLino&quot;.</p>
         </section>
 
         {/* 2. Objeto */}
