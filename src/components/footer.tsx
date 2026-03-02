@@ -35,17 +35,11 @@ export const Footer = () => {
                             <span className="text-xs group-hover:underline">YouTube</span>
                         </a>
                         <a className="flex flex-row-reverse items-center gap-2 rounded-lg p-1 group" target="_blank"
-                           href="https://www.instagram.com/andree_linoo/"
+                           href="https://www.instagram.com/teamlino.pt/"
                            rel="noopener noreferrer"
                         >
                             <Instagram className="inline"/>
                             <span className="text-xs group-hover:underline">Instagram</span>
-                        </a>
-                        <a className={"flex flex-row-reverse items-center gap-2 rounded-lg p-1 group"} target="_blank"
-                           href="https://www.twitch.tv/andree_linoo"
-                           rel="noopener noreferrer">
-                            <Twitch className={"inline"}/>
-                            <span className="text-xs group-hover:underline">Twitch</span>
                         </a>
                     </div>
                 </div>
