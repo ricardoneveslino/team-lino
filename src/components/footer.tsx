@@ -15,8 +15,11 @@ export const Footer = () => {
                 <div className={"h-full"}>
                     <h2 className={"text-xl font-bold mb-2 text-center sm:text-left"}>Outros</h2>
                     <nav className={"text-xs flex flex-col items-center sm:items-start"}>
-                        <Link href={"/terms-and-conditions"} className={"hover:underline"}>
+                        <Link href={"/termos-e-condicoes"} className={"hover:underline"}>
                             Termos e condições
+                        </Link>
+                        <Link href={"/politica-de-privacidade"} className={"hover:underline"}>
+                            Política de Privacidade
                         </Link>
                     </nav>
                 </div>
