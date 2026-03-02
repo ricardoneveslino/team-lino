@@ -18,7 +18,7 @@ const Page = () => {
             <p>Contacto: +351 938 652 808</p>
             <p>Email: info@teamlino.pt</p>
           </div>
-          <p className="mt-2 italic text-gray-400">Doravante designada por &quot;TeamLino&quot;.</p>
+          <p className="mt-2 italic text-gray-400">Doravante designada por “TeamLino”.</p>
         </section>
 
         {/* 2. Objeto */}
@@ -127,7 +127,7 @@ const Page = () => {
           </ul>
           <p className="mb-4">Os planos ficarão disponíveis na App até ao prazo máximo de 48 horas após a análise da Avaliação Inicial.</p>
           <p className="mb-4">Caso o serviço tenha efetivamente iniciado dentro do prazo legal de livre resolução, o Cliente reconhece que será devido o pagamento proporcional ao trabalho já realizado, correspondente, nomeadamente, à:</p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-300">
+          <ul className="list-disc pl-6 space-y-2 mb-4 text-gray-300">
             <li>Análise da Avaliação Inicial enviada pelo Cliente;</li>
             <li>Preparação dos planos de treino e nutricional personalizados (após análise da Avaliação Inicial).</li>
           </ul>
@@ -137,6 +137,7 @@ const Page = () => {
         {/* 9. Cancelamento */}
         <section>
           <h2 className="text-xl font-bold mb-4 text-white">9. Cancelamento e Reembolsos</h2>
+          <p className="mb-4 italic text-gray-300">Após o início da prestação dos serviços, aplica-se o seguinte:</p>
           <p className="font-bold mb-2">Reembolsos</p>
           <ul className="list-disc pl-6 space-y-2 mb-4 text-gray-200">
             <li>Não serão efetuados reembolsos referentes a períodos já iniciados, salvo disposição legal em contrário;</li>
@@ -154,17 +155,21 @@ const Page = () => {
           <h2 className="text-xl font-bold mb-4 text-white">10. Envio de Fotografias e Avaliação Física</h2>
           <p className="mb-4">Para efeitos de Avaliação Inicial e acompanhamento da evolução, poderá ser solicitado ao Cliente o envio de fotografias corporais e dados físicos.</p>
           <p className="mb-2 font-bold">O Cliente declara ter conhecimento que:</p>
+          
           <p className="font-semibold mt-4 italic">Finalidade do envio</p>
+          <p className="mb-2 text-gray-300">As imagens e dados fornecidos destinam-se exclusivamente a:</p>
           <ul className="list-disc pl-6 space-y-1 mb-4 text-gray-200">
             <li>Avaliação técnica do estado físico;</li>
             <li>Monitorização da evolução do plano de treino e nutricional;</li>
             <li>Ajuste do plano personalizado, conforme necessidades individuais do Cliente.</li>
           </ul>
+          
           <p className="font-semibold italic">Confidencialidade e segurança</p>
           <ul className="list-disc pl-6 space-y-1 mb-4 text-gray-200">
             <li>Todas as fotografias e dados fornecidos serão tratados com estrita confidencialidade, armazenados em sistemas seguros e utilizados apenas para os fins acima descritos, tudo de acordo com a nossa Política de Privacidade;</li>
             <li>A TeamLino compromete-se a não divulgar, partilhar ou comercializar qualquer imagem ou dado sem o consentimento explícito do Cliente.</li>
           </ul>
+          
           <p className="font-semibold italic">Responsabilidade do Cliente</p>
           <ul className="list-disc pl-6 space-y-1 text-gray-200">
             <li>O Cliente garante que todas as imagens fornecidas são legítimas, autênticas e de sua própria pessoa, isentando a TeamLino de qualquer responsabilidade por informações incorretas ou fraudulentas;</li>
@@ -190,43 +195,64 @@ const Page = () => {
             <li>Reproduzir, copiar, modificar, comercializar ou explorar os conteúdos de qualquer forma sem autorização expressa e por escrito da TeamLino;</li>
             <li>Utilizar os conteúdos, planos ou materiais para fins profissionais, comerciais ou educativos fora do âmbito do serviço contratado.</li>
           </ul>
-          <p>O acesso aos conteúdos é estritamente pessoal, intransmissível e limitado ao período de subscrição contratado pelo Cliente. Qualquer violação destas disposições poderá resultar em indenização por danos.</p>
+          <p className="mb-4">O acesso aos conteúdos é estritamente pessoal, intransmissível e limitado ao período de subscrição contratado pelo Cliente.</p>
+          <p>O Cliente reconhece que qualquer violação destas disposições poderá resultar em indenização por danos, sem prejuízo da aplicação de medidas legais adicionais para proteção da propriedade intelectual da TeamLino.</p>
         </section>
 
         {/* 13. Proteção de Dados */}
         <section>
           <h2 className="text-xl font-bold mb-4 text-white">13. Proteção de Dados</h2>
           <p className="mb-4">O tratamento de dados pessoais do Cliente é efetuado em conformidade com o Regulamento (UE) 2016/679 – RGPD e demais legislação aplicável sobre proteção de dados e da nossa Política de Privacidade.</p>
+          
           <p className="font-bold mb-2">Finalidade do tratamento</p>
+          <p className="mb-2 text-gray-300">Os dados recolhidos destinam-se exclusivamente à execução do contrato, incluindo:</p>
           <ul className="list-disc pl-6 space-y-1 mb-4 text-gray-200">
             <li>Acompanhamento dos planos de treino e nutricionais;</li>
             <li>Comunicação com o Cliente sobre o serviço contratado;</li>
             <li>Emissão de faturas e cumprimento de obrigações legais;</li>
             <li>Melhoria e personalização do serviço oferecido pela TeamLino.</li>
           </ul>
-          <p className="mb-4">O Cliente pode, a qualquer momento, exercer os seus direitos de acesso, retificação, eliminação ou oposição, contactando: info@teamlino.pt. Reclamações podem ser apresentadas à CNPD (https://www.cnpd.pt).</p>
+
+          <p className="font-bold mb-2">Segurança e confidencialidade</p>
+          <p className="mb-4">A TeamLino compromete-se a armazenar os dados em sistemas seguros, garantindo a confidencialidade e proteção contra acessos não autorizados.</p>
+
+          <p className="font-bold mb-2">Direitos do Cliente</p>
+          <p className="mb-4">O Cliente pode, a qualquer momento, exercer os seus direitos de acesso, retificação, eliminação, limitação do tratamento, portabilidade ou oposição, contactando a TeamLino através do email oficial: info@teamlino.pt.</p>
+          <p className="mb-4 italic text-gray-400">A retirada de consentimento para o tratamento de dados, quando aplicável, poderá implicar a impossibilidade de prestação total ou parcial dos serviços, sem direito a reembolso.</p>
+
+          <p className="font-bold mb-2">Autoridade de controlo</p>
+          <p className="mb-2">Qualquer reclamação relativa ao tratamento de dados pessoais pode ser apresentada à Comissão Nacional de Proteção de Dados (CNPD):</p>
+          <div className="space-y-1 text-gray-300">
+            <p>Website: https://www.cnpd.pt</p>
+            <p>Morada: Av. D. Carlos I, 134, 1.º, 1200-651 Lisboa</p>
+          </div>
         </section>
 
         {/* 14. Limitação de Responsabilidade */}
         <section>
           <h2 className="text-xl font-bold mb-4 text-white">14. Limitação de Responsabilidade</h2>
-          <p className="mb-4">A TeamLino presta um serviço baseado nas informações fornecidas pelo Cliente, não substituindo acompanhamento médico. A responsabilidade limita-se à correta prestação do serviço contratado.</p>
+          <p className="mb-4">A TeamLino presta um serviço de acompanhamento online personalizado, baseado nas informações fornecidas pelo Cliente, não substituindo acompanhamento médico, diagnóstico clínico ou prescrição terapêutica.</p>
+          <p className="mb-4">A responsabilidade da TeamLino limita-se à correta prestação do serviço contratado, nos termos descritos nos presentes Termos e Condições.</p>
           <p className="mb-2 font-bold">A TeamLino não poderá ser responsabilizada por:</p>
           <ul className="list-disc pl-6 space-y-2 mb-4 text-gray-200">
-            <li>Lesões ou problemas físicos resultantes da prática de exercício;</li>
-            <li>Execução incorreta dos exercícios;</li>
-            <li>Omissão ou prestação de informações falsas por parte do Cliente;</li>
+            <li>Lesões, problemas físicos ou agravamento de condições pré-existentes resultantes da prática de exercício físico;</li>
+            <li>Execução incorreta dos exercícios demonstrados;</li>
+            <li>Omissão ou prestação de informações incompletas ou falsas por parte do Cliente;</li>
             <li>Não cumprimento das orientações fornecidas;</li>
-            <li>Interrupções técnicas da App ou serviços de terceiros.</li>
+            <li>Decisões alimentares ou de treino tomadas pelo Cliente fora das recomendações fornecidas;</li>
+            <li>Interrupções técnicas da App, plataformas digitais ou serviços de terceiros;</li>
+            <li>Fatores externos que escapem ao controlo da TeamLino.</li>
           </ul>
-          <p>Qualquer responsabilidade fica limitada ao valor efetivamente pago pelo Cliente relativamente ao plano em vigor.</p>
+          <p className="mb-4">Até ao limite máximo permitido por lei, qualquer responsabilidade da TeamLino por eventuais danos fica limitada ao valor efetivamente pago pelo Cliente relativamente ao plano em vigor à data do facto que originou a reclamação.</p>
+          <p className="italic text-gray-400">A presente limitação não se aplica em casos de dolo ou culpa grave, nos termos da legislação portuguesa aplicável.</p>
         </section>
 
         {/* 15. Lei Aplicável */}
         <section>
           <h2 className="text-xl font-bold mb-4 text-white">15. Lei Aplicável e Foro</h2>
-          <p className="mb-4">Os presentes Termos e Condições regem-se pela legislação portuguesa.</p>
-          <p>Qualquer litígio emergente será resolvido pelos tribunais competentes da comarca da sede da TeamLino, sem prejuízo de outros meios de resolução alternativa de litígios previstos na lei.</p>
+          <p className="mb-4">Os presentes Termos e Condições regem-se pela legislação portuguesa, incluindo normas civis, comerciais e de proteção do consumidor aplicáveis.</p>
+          <p className="mb-4">Qualquer litígio ou conflito emergente da interpretação, execução ou violação destes Termos será resolvido pelos tribunais competentes da comarca da sede da TeamLino, sem prejuízo de outros meios de resolução alternativa de litígios que possam ser acordados entre as partes.</p>
+          <p className="text-sm text-gray-400">A escolha do foro não limita o direito do Cliente de recorrer a mecanismos de resolução de litígios previstos na lei, incluindo reclamações junto da Comissão Nacional de Proteção de Dados (CNPD), no caso de questões relacionadas com tratamento de dados pessoais.</p>
         </section>
       </div>
     </div>

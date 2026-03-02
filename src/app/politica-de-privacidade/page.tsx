@@ -24,7 +24,7 @@ const Page = () => {
             <li>Dados de saúde e condição física: altura, peso, composição corporal, fotos corporais enviadas para avaliação inicial ou acompanhamento;</li>
             <li>Dados de utilização da app: registo de treino, progresso, interações com a equipa;</li>
             <li>Dados de marketing (quando aplicável): preferências de contacto e comunicação.</li>
-            <li>Dados de navegação (quando aplicável): endereço IP, localização aproximada, tipo de dispositivo e de browser.</li>
+            <li>Dados de navigation (quando aplicável): endereço IP, localização aproximada, tipo de dispositivo e de browser.</li>
           </ul>
         </section>
 
@@ -38,8 +38,8 @@ const Page = () => {
             <li>Envio de informações e novidades sobre serviços da TeamLino, quando consentido;</li>
             <li>Cumprimento de obrigações legais e fiscais, nomeadamente emitir faturas e recibos;</li>
             <li>Processamento de pagamentos (Cofidis, Viva Wallet, Eupago, MBWay, cartão de crédito).</li>
-            <li>Analisar o desempenho do site para melhoria contínua (quando aplicável)</li>
           </ul>
+          <p className="mt-4">Analisar o desempenho do site para melhoria contínua (quando aplicável)</p>
         </section>
 
         <section>
@@ -89,7 +89,7 @@ const Page = () => {
             <li>Contabilidade (para efeitos fiscais)</li>
             <li>Cumprimentos de outras obrigações legais (como notificações judiciais), se aplicável</li>
           </ul>
-          <p>Todos os prestadores atuam como subcontratantes, estando obrigados a cumprir o RGPD e assinam documentação em conformidade.</p>
+          <p className="mt-4">Todos os prestadores atuam como subcontratantes, estando obrigados a cumprir o RGPD e assinam documentação em conformidade.</p>
         </section>
 
         <section>
