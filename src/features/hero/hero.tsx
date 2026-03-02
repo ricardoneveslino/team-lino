@@ -1,7 +1,6 @@
 import {Separator} from "@/components/ui/separator";
 import {Button} from "@/components/ui/button";
 import {Dumbbell, NotebookPen} from "lucide-react";
-import PresentationVideo from "@/components/presentation-video";
 
 export function Hero() {
 
@@ -20,7 +19,6 @@ export function Hero() {
                         </span>
                     </h1>
 
-                    <PresentationVideo className={"sm:hidden"}/>
 
                     <div className={"flex flex-col gap-4 text-center sm:text-left"}>
                         <Separator className={"w-8 bg-primary mx-auto sm:mx-0"}/>
@@ -45,7 +43,6 @@ export function Hero() {
 
                 </div>
 
-                <PresentationVideo className={"hidden sm:block sm:w-6/12"}/>
             </div>
         </div>
     )

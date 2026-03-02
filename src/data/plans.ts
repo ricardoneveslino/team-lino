@@ -24,8 +24,8 @@ export const plans = [
                 "description": "Follow up semanal para análise dos progressos e ajuste dos planos de treino e nutrição e suplementação (se necessário)."
             },
             {
-                "title": "Acompanhamento pelo Telegram",
-                "description": "Grupo privado no Telegram para esclarecimento de dúvidas e apoio motivacional para apoio diário."
+                "title": "Acompanhamento pelo Chat",
+                "description": "Acompanhamento diário através da App, com suporte direto da TeamLino, ajustes personalizados e orientação estratégica para resultados sustentáveis."
             },
             {
                 "title": "Acesso à Nossa App Exclusiva",
@@ -62,8 +62,8 @@ export const plans = [
                 "description": "Follow up semanal para análise dos progressos e ajuste dos planos de treino e nutrição e suplementação (se necessário)."
             },
             {
-                "title": "Acompanhamento pelo Telegram",
-                "description": "Grupo privado no Telegram para esclarecimento de dúvidas e apoio motivacional para apoio diário."
+                "title": "Acompanhamento pelo Chat",
+                "description": "Acompanhamento diário através da App, com suporte direto da TeamLino, ajustes personalizados e orientação estratégica para resultados sustentáveis"
             },
             {
                 "title": "Acesso à Nossa App Exclusiva",
