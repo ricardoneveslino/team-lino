@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page = () => {
   return (
-    <div className="max-w-[1200px] mx-auto py-12 px-6 text-gray-800 leading-relaxed">
+    <div className="max-w-[1200px] mx-auto py-12 px-6 text-white bg-slate-900">
       <h1 className="text-3xl font-bold text-center mb-4">Política de Privacidade – TeamLino</h1>
       <p className="text-center text-gray-500 mb-12 italic">Última revisão 28/02/2026</p>
 
@@ -19,7 +19,7 @@ const Page = () => {
         {/* 1. Responsável */}
         <section className="border-b border-gray-200 pb-6">
           <h2 className="text-xl font-bold mb-3">1. Responsável pelo Tratamento de Dados</h2>
-          <p className="font-semibold text-blue-900">Ventos Benfazejos Lda – NUIPC 519 247 060</p>
+          <p className="font-semibold text-white">Ventos Benfazejos Lda – NUIPC 519 247 060</p>
         </section>
 
         {/* 2. Dados Pessoais */}

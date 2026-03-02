@@ -2,9 +2,9 @@ import React from 'react';
 
 const Page = () => {
   return (
-    <div className="max-w-[1200px] mx-auto py-12 px-6 text-gray-800 leading-relaxed">
+    <div className="max-w-[1200px] mx-auto py-12 px-6 text-white bg-slate-900">
       <h1 className="text-3xl font-bold text-center mb-10">TERMOS E CONDIÇÕES</h1>
-      <p className="text-center font-semibold mb-12 text-lg text-blue-900">TEAMLINO – Acompanhamento Online</p>
+      <p className="text-center font-semibold mb-12 text-lg text-white">TEAMLINO – Acompanhamento Online</p>
 
       {/* 1. Identificação */}
       <section className="mb-10 border-b border-gray-200 pb-8">
