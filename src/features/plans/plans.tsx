@@ -95,9 +95,6 @@ const Plan = ({plan}: PlanProps) => {
                     <SavingBadge savingPercentage={plan.saving} className={"absolute top-0 right-8"}/>
                 }
             </div>
-            {plan.specialOffer && <p className={"text-center sm:text-left text-sm m-1"}>
-                <span className={"font-semibold text-primary"}> Oferta Especial: </span> {plan.specialOffer}
-            </p>}
         </div>
 
     )
