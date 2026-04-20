@@ -33,34 +33,13 @@ const Plan = ({plan}: PlanProps) => {
                 </div>
 
                 <div className="flex flex-col justify-center items-center gap-4 text-center">
-                    <div>
-                        <h4 className="text-5xl font-bold">
-                            {plan.price}€
-                        </h4>
-                        <span className="text-sm text-muted-foreground">
-                            A cada {plan.periodicity}
-                        </span>
-                    </div>
                     <Button variant="contrast" className="h-12 px-16 w-full" asChild>
                         <a href="https://signup-teamlino.mkgest.com/" target="_blank" rel="noreferrer nofollow">
                             Aderir
                         </a>
                     </Button>
                 </div>
-
-                {plan.saving > 0 &&
-                    <SavingBadge savingPercentage={plan.saving} className="absolute top-0 right-8"/>
-                }
             </div>
-        </div>
-    )
-}
-
-const SavingBadge = ({savingPercentage, className}: { savingPercentage: number, className?: string }) => {
-    return (
-        <div
-            className={`rounded-b-lg bg-gradient-to-tr from-primary via-primary to-white px-4 py-2 text-xs font-semibold text-white ${className}`}>
-            Poupa {savingPercentage}%!
         </div>
     )
 }
