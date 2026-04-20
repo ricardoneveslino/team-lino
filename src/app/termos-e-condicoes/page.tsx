@@ -161,7 +161,7 @@ const Page = () => {
           <ul className="list-disc pl-6 space-y-1 mb-4 text-gray-200">
             <li>Avaliação técnica do estado físico;</li>
             <li>Monitorização da evolução do plano de treino e nutricional;</li>
-            <li>Ajuste do plano personalizado, conforme necessidades individuais do Cliente.</li>
+            <li>Ajuste do plano personalizado, conforme necessidades individuais do Cliente</li>
           </ul>
           
           <p className="font-semibold italic">Confidencialidade e segurança</p>
