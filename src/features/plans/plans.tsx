@@ -22,7 +22,7 @@ const Plan = ({plan}: PlanProps) => {
             <div className="w-full flex flex-col sm:flex-row items-stretch gap-4">
                 <div className="flex-1">
                     <h3 className="text-xl font-bold mb-8 text-center sm:text-left">
-                        O que está incluído no plano <span className="text-primary">{plan.name}</span>
+                        O que está incluído no nosso <span className="text-primary">Acompanhamento</span>
                     </h3>
 
                     <div className="grid sm:grid-rows-3 grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 pb-4">

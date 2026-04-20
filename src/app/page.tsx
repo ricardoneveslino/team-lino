@@ -34,10 +34,10 @@ export default function Home() {
           <section id={"planos"} className={"page-section"}>
               <div className="text-center mb-12 max-w-4xl mx-auto">
     <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 leading-tight">
-        <span className="inline-block">Os Nossos Planos</span> 
+        <span className="inline-block">Inicia já a tua Transformação</span> 
     </h2>
     <p className="text-lg text-gray-400 mx-auto max-w-3xl">
-        Escolha o plano perfeito para começar a sua transformação hoje mesmo.
+        Clica já no botão abaixo para darmos o próximo passo!
     </p>
 </div>
               <Plans/>

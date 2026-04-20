@@ -32,12 +32,6 @@ export function Hero() {
                     </div>
 
                     <div className={"flex flex-wrap gap-4 justify-center sm:justify-start"}>
-                        <Button variant={"outline"} className={"font-medium scroll-animate !duration-300"} asChild>
-                            <a href={"/#planos"}>
-                                <NotebookPen className={"inline"} size={16}/>
-                                Escolhe o Teu Plano
-                            </a>
-                        </Button>
                         <Button variant={"default"} className={"font-medium scroll-animate !duration-300"}
                                 asChild>
                             <a href={"https://signup-teamlino.mkgest.com/"} target={"_blank"} rel={"noreferrer nofolow"}>
