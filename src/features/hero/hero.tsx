@@ -1,6 +1,6 @@
 import {Separator} from "@/components/ui/separator";
 import {Button} from "@/components/ui/button";
-import {Dumbbell, NotebookPen} from "lucide-react";
+import {Dumbbell} from "lucide-react";
 
 export function Hero() {
 
