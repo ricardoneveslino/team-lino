@@ -48,7 +48,7 @@ const MobileNav = () => {
                     <Separator />
                     <Button variant="default" asChild className="w-full">
                         <a
-                            href="https://formulario.teamlino.pt/"
+                            href="https://signup-teamlino.mkgest.com/"
                             target="_blank"
                             rel="noreferrer nofollow"
                         >
